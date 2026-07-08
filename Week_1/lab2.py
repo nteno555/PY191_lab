@@ -150,7 +150,6 @@ def main(screen):
         # ---------------- ANSWER ----------------
 
         elif key == 10:
-            cursor = display.index("|")
             display = display[0:cursor] + "\n|" + display[cursor+1:]
             cursor += 2
 
